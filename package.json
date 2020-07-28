@@ -1,0 +1,19 @@
+{
+  "name": "les_elfes_du_bien_etre-master",
+  "version": "1.0.0",
+  "description": "création d'un site pour une boutique de prestation de service beauté bien-être avec un carnet de rendez-vous en lien avec facebook et istagram ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./style.scss:./style.css  --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DANIEL974688/les_elfes_du_bien_etre.git"
+  },
+  "author": "dg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DANIEL974688/les_elfes_du_bien_etre/issues"
+  },
+  "homepage": "https://github.com/DANIEL974688/les_elfes_du_bien_etre#readme"
+}
