@@ -56,7 +56,7 @@ h3{
   font-size: normal;
   font-family: bold;
 }
-.btn1
+.btn1 
 {
 color:$color-bandeau ;
 max-width: 100%;
@@ -69,7 +69,42 @@ position: relative;
 transition: transform 2000ms 450ms;
 transition-delay: 300ms;
 &:hover{
+  transform:scalex(1.15);
+  background: #7bdf1d ;
+}
+}
+.btn2 
+{
+color:$color-bandeau ;
+max-width: 100%;
+max-height: 85%;
+font-size: 3rem;
+cursor:pointer;
+padding: 1.85rem 3rem;
+overflow: hidden;
+position: relative;
+transition: transform 2000ms 400ms;
+transition-delay: 400ms;
+&:hover{
   transform:scalex(1.25);
-  background: $background-bandeau;
+  background:  #f1f125
+  ;
+}
+}
+.btn3 
+{
+color:$color-bandeau ;
+max-width: 100%;
+max-height: 85%;
+font-size: 3rem;
+cursor:pointer;
+padding: 1.85rem 3rem;
+overflow: hidden;
+position: relative;
+transition: transform 2000ms 350ms;
+transition-delay: 300ms;
+&:hover{
+  transform:scalex(1.15);
+  background: #e59669;
 }
 }
