@@ -84,12 +84,13 @@ cursor:pointer;
 padding: 1.85rem 3rem;
 overflow: hidden;
 position: relative;
-transition: transform 2000ms 400ms;
-transition-delay: 400ms;
+transition: transform 2000ms 450ms;
+transition-delay: 300ms;
+
 &:hover{
-  background:  #f1f125  ;
-  transform: translate (150px, -7vh);
-}
+  transform:scalex(1.25);
+   background:  #f1f125;
+ }
 }
 .btn3 
 {
