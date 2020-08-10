@@ -87,9 +87,8 @@ position: relative;
 transition: transform 2000ms 400ms;
 transition-delay: 400ms;
 &:hover{
-  transform:scalex(1.25);
-  background:  #f1f125
-  ;
+  background:  #f1f125  ;
+  transform: translate (150px, -7vh);
 }
 }
 .btn3 
