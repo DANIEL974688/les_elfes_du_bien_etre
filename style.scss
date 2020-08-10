@@ -111,18 +111,31 @@ transition-delay: 300ms;
   background:#da1d0f;
 }
 }
-.p1
+
+@media (min-width: 768px) and (max-width: 992.98px)
 {
-  color:#7bdf1d ;
-  margin:25px;
+  header
+  {
+  text-align: center;
+  font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
+  color: $color-bandeau;
+  background-color: $background-bandeau ;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 15px;
+  
+  }
 }
-.p2
+@media (min-width: 576px) and (max-width: 767.98px){
+header
 {
-  color: #f1f125;
-  margin:25px;
+text-align: center;
+font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
+color: $color-bandeau;
+background-color: none ;
+width: 100%;
+height: 100%;
+margin-bottom: 15px;
+
 }
-.p3
-{
-  color:#da1d0f;
-  margin:25px;
 }
