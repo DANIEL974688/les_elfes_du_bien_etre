@@ -44,8 +44,9 @@ h3{
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .image-responsive {
+  display:block;
   height: 100px;
-  width: 100px;
+  width: 30%;
 } 
 header
 {
@@ -132,8 +133,8 @@ transition-delay: 300ms;
   }
   .image-responsive{
     display:block;
-    height: 50%;
-    width: 50%;
+    height: 25%;
+    width: 25%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
@@ -142,8 +143,8 @@ header
 font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
 color: $color-bandeau;
 background-color:none ;
-width: 50%;
-height: 50%;
+width: 5%;
+height: 5%;
 
 
 }
