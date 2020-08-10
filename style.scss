@@ -125,6 +125,11 @@ transition-delay: 300ms;
   margin-bottom: 15px;
   
   }
+  .image-responsive{
+    display:block;
+    height: 50%;
+    width: 50%;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
 header
@@ -139,6 +144,8 @@ margin-bottom: 15px;
 
 }
 .image-responsive{
-  display:none;
+  display:block;
+  width: 25%;
+  height: 25%;
 }
 }
