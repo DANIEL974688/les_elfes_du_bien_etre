@@ -69,6 +69,7 @@ overflow: hidden;
 position: relative;
 transition: transform 2000ms 450ms;
 transition-delay: 300ms;
+
 &:hover{
   transform:scalex(1.15);
   background: #7bdf1d ;
