@@ -3,6 +3,9 @@
   font-family: 'Nimbus sans L';
   src: url(NimbusSanL-Bol.otf);
   }
+$color-bandeau: #df1db6;
+$background-bandeau: #1db6df ;
+
 body
 {
    text-align: justify;
@@ -38,8 +41,7 @@ h3{
   font-size: normal;
   font-family: bold;
 }
-$color-bandeau: #df1db6;
-$background-bandeau: #1db6df ;
+
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 .image-responsive {
   height: 100%;
