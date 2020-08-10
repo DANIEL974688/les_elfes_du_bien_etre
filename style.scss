@@ -3,16 +3,19 @@
   font-family: 'Nimbus sans L';
   src: url(NimbusSanL-Bol.otf);
   }
+
+$color-bandeau: #df1db6;
+$background-bandeau: #1db6df ;
+@media (min-width: 992px) and (max-width: 1199.98px) { 
 .image-responsive {
   height: 100px;
   width: 200px;
 } 
-$color-bandeau: #df1db6;
-$background-bandeau: #1db6df ;
 header
 {
 text-align: center;
-font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
+font-family:'Nimbus sans L',Arial, Helvetica, sans-serif; 
+
 color: $color-bandeau;
 background-color: $background-bandeau ;
 width: 100%;
@@ -111,7 +114,7 @@ transition-delay: 300ms;
   background:#da1d0f;
 }
 }
-
+}
 @media (min-width: 768px) and (max-width: 992.98px)
 {
   header
@@ -134,13 +137,12 @@ transition-delay: 300ms;
 @media (min-width: 576px) and (max-width: 767.98px){
 header
 {
-text-align: center;
 font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
 color: $color-bandeau;
-background-color: none ;
-width: 100%;
-height: 100%;
-margin-bottom: 15px;
+background-color:none ;
+width: 50%;
+height: 50%;
+
 
 }
 .image-responsive{
