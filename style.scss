@@ -9,7 +9,8 @@ $background-bandeau: #1db6df ;
 body
 {
    text-align: justify;
-}footer
+}
+footer
 {
   font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
   color:$color-bandeau;
@@ -41,8 +42,6 @@ h3{
   font-size: normal;
   font-family: bold;
 }
-
-@media (min-width: 992px) and (max-width: 1199.98px) { 
 header
 {
 text-align: center;
@@ -55,13 +54,6 @@ height: 100px;
 margin-bottom: 15px;
 justify-content: center;
 }
-.image-responsive
-{
-  display:block;
-  height: auto;
-  width: 20%;
-}
-
 .btn1 
 {
 
@@ -81,7 +73,6 @@ transition-delay: 300ms;
   background: #7bdf1d ;
 }
 }
-
 .btn2 
 {
 
@@ -117,37 +108,27 @@ transition-delay: 300ms;
   background:#da1d0f;
 }
 }
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+.image-responsive
+{
+  display:block;
+  height: auto;
+  width: 20%;
+}
+
+
 }
 @media (min-width: 768px) and (max-width: 992.98px)
 {
-  header
-  {
-  text-align: center;
-  font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
-  color: $color-bandeau;
-  background-color: $background-bandeau ;
-  width: 100%;
-  height: 100%;
-  margin-bottom: 15px;
-  
-  }
-  .image-responsive{
+    .image-responsive{
     display:block;
     height: auto;
     width: 25%;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
-header
-{
-font-family:'Nimbus sans L',Arial, Helvetica, sans-serif;
-color: $color-bandeau;
-background-color:none ;
-width: 5%;
-height: 5%;
 
-
-}
 .image-responsive{
   display:block;
   width: 25%;
