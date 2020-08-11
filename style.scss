@@ -108,19 +108,23 @@ transition-delay: 300ms;
 }
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
-.img-fluid
-{
-max-width: 100%;
-height: auto;
-}
+
 
 
 }
 @media (min-width: 768px) and (max-width: 992.98px)
 {
-   
+  .img-fluid
+  {
+  max-width: 100%;
+  height: auto;
+  }
 }
 @media (min-width: 576px) and (max-width: 767.98px){
 
-
+  .img-fluid
+  {
+  max-width: 100%;
+  height: auto;
+  }
 }
